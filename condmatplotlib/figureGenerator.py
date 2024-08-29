@@ -1,5 +1,9 @@
 import matplotlib
 import tkinter as tk
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+from . import plottingMethods
 
 ###########################
 # File managing functions #
@@ -31,11 +35,6 @@ def saveFigToPath(fig, figPath, fmt='png', dpi=200):
 ###################
 # Actual plotters #
 ###################
-
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.cm as cm
-import plottingMethods
 
 # These methods start the heavy work of creating figures
 # They create subplot mosaiscs with the structure you ask for
